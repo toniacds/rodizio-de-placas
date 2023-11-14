@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+  background: #ebe7e0;
+}
+
+text {
+  fill: #5d854e;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+html {
+  align-items: center;
+  background: #ebe7e0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 600px;
+}
+.button {
+
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: rgb(239, 241, 209); 
+    color: black; 
+    border: 2px solid #2c5a2c;
+    text-decoration: none;
+    border-radius: 50px;
+ 
+  }
+  
+  .button2:hover {
+    text-decoration: none;
+    background-color: #559357;
+    color: white;
+  }
